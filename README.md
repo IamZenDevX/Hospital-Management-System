@@ -56,56 +56,46 @@ The platform will require a relational database to manage User,Doctor and Bookin
 
 ---
 
-### a) **Users**
+### a) User
 
 | **Field Name** | **Type** |
 | --- | --- |
-| userid | string |
-| username | String |
-| googleid | String |
-| thumbnail | String |
-| category | String |
+| email | String |
+| isDoctor | Boolean |
 | name | String |
-| dob | String |
-| gender | String |
-| qua | String |
-| spec | String |
-| mailid | String |
-| phoneno | String |
-| password | password |
-| totalrating | Number |
-| totalperson | Number |
-| desc | String |
+| password | String |
+| isAdmin | Boolean |
 
-### b) Location
+### b)  Doctor
 
 | **Field Name** | **Type** |
 | --- | --- |
-| touristid | String |
-| locationname | String |
-| lat | Number |
-| lng | Number |
+| firstName | String |
+| lastName | String |
+| phoneNumber | Number |
+| address | String |
+| department | String |
+| specialization | String |
+| experience | String |
+| timings | String |
+| feePerConsultation | Number |
+| userId | Ref. Object → User |
+| website | String |
+| status | String |
 
-### c) Doctor Location
+### c) Booking
 
 | **Field Name** | **Type** |
 | --- | --- |
-| doctorid | String |
-| location | String |
+| userId | String |
+| doctorId | password |
+| doctorInfo | Ref. Object → Doctor |
+| date | String |
+| status | Date |
 | time | String |
-| day | String |
-| free | String |
+| userInfo | Ref. Object → User |
 
-### d) appointment
 
-| **Field Name** | **Type** |
-| --- | --- |
-| doctorid | String |
-| doctorname | String |
-| patentname | String |
-| patentid | String |
-| location | String |
-| phonenumber | String |
 
 <h2 align="left">Use Cases:</h2>
 
