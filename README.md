@@ -116,9 +116,9 @@ The platform will require a relational database to manage User,Doctor and Bookin
 ### **3. Booking Model**
 
 - **Schedule Appointment**: Patients can schedule doctors by Schedule
-- **Update Appointment Status:**allows doctors or administrators to confirm or cancel appointments.
+- Update Appointment Status:allows doctors or administrators to confirm or cancel appointments.
 - **Track Appointment History**: doctors and patients can view past bookings.
-- 
+  
 <h2 align="left">Development with ZenDevx:</h2>
 
 <a href="https://www.zendevx.com/" target="blank"><img align="center" src="https://github.com/user-attachments/assets/7dd7220f-e83c-4490-9ac2-beab3bcf8c35" alt="ZenDevX" height="auto" width="auto" /></a>
